@@ -1,5 +1,5 @@
 # Deep_Neural_Network
-
+**Experiment 1:**
 Theoretical Background of the MP Neuron
 
 The MP neuron, short for the McCulloch–Pitts neuron, is the earliest mathematical model of a biological neuron, introduced in 1943 by Warren McCulloch and Walter Pitts. It represents a foundational concept in the development of artificial neural networks and computational neuroscience. The model was primarily designed to simulate basic logical operations using a simplified abstraction of neural behavior.
