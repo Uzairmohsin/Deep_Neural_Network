@@ -1,5 +1,5 @@
-Linear Regression with Delta Rule and Noise
-📌 What We Learned
+# Linear Regression with Delta Rule and Noise
+## 📌 What We Learned
 
 Linear Regression predicts continuous output using a linear equation.
 
@@ -39,6 +39,6 @@ Learned how improper math symbols break formatting in GitHub README.
 
 Used plain text and code blocks for correct GitHub rendering.
 
-🧠 Key Takeaway
+## 🧠 Key Takeaway
 
 Delta Rule updates weights using error and learning rate to obtain the best regression line, even in the presence of noise.
