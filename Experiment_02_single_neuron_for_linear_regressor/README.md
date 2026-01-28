@@ -1,20 +1,44 @@
-What is linera regression?
-Linear regression is a supervised machine learning technique used to pridect the output based on the input
-features by applying a straight line.
-Simple Linear Regression equation:
-    
-    𝑦=𝑤𝑥+𝑏
+Linear Regression with Delta Rule and Noise
+📌 What We Learned
 
-x → input feature
+Linear Regression predicts continuous output using a linear equation.
 
-y → predicted output
+Model equation used:
 
-w → weight (slope)
+y_pred = w * x + b
 
-b → bias (intercept)
 
-Error / Loss Function (Mean Squared Error)
+Gaussian noise was added to simulate real-world data:
 
-The most commonly used loss function is Mean Squared Error (MSE).
+y_actual = w * x + b + noise
 
-𝐸 =1/2(𝑦−𝑦^)
+
+Noise was generated using NumPy’s normal distribution:
+
+noise = np.random.normal(0, sigma, size=x.shape)
+
+
+Prediction error was calculated as:
+
+error = y_actual - y_pred
+
+
+We trained the model using the Delta Rule.
+
+Weight and bias were updated iteratively:
+
+w = w + alpha * error * x
+b = b + alpha * error
+
+
+We iterated the update rule multiple times to reduce error.
+
+After training, the best-fit regression line was plotted over noisy data.
+
+Learned how improper math symbols break formatting in GitHub README.
+
+Used plain text and code blocks for correct GitHub rendering.
+
+🧠 Key Takeaway
+
+Delta Rule updates weights using error and learning rate to obtain the best regression line, even in the presence of noise.
